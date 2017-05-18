@@ -1,13 +1,15 @@
 A Ruby script to test Grok patterns against log files
 =====================================================
 
-The idea of this script came from the [Ruby implementation of Grok](https://github.com/jordansissel/ruby-grok)  
-made by Jordan Sissel.
+The idea of this script came from the [Ruby implementation of Grok](https://github.com/jordansissel/ruby-grok) made by Jordan Sissel.
 
 Usage
 -----
 
-Simple test from the command line: ~~~ grok_test.rb logfile.log mypatterns ~~~
+Simple test from the command line:
+~~~
+grok_test.rb logfile.log mypatterns
+~~~
 
 A pattern file example, containing just the most basic one:
 ~~~
