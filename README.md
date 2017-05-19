@@ -44,3 +44,15 @@ Match found:
  "program"=>["sshd"],
  "pid"=>["15188"]}
 ~~~
+
+Ruby dependencies
+-----------------
+
+The script was tested with Ruby 2.2 and it needs the following gem:
+
+~~~
+gem install jls-grok
+~~~
+
+Reference: https://rubygems.org/gems/jls-grok
+
